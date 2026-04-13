@@ -1,3 +1,127 @@
 Proyecto Final RA2
 Segundo cambio adicional del proyecto.
 Universidad / Infotep
+
+Jose Julio Miniel Javier
+
+13/04/2026
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Personal - Jose Julio Miniel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #1e3a8a;
+      margin-top: 30px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .card {
+      background: #eef2ff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>👨‍💻 Jose Julio Miniel</h1>
+  <p>Ingeniero en Sistemas | Apasionado por la tecnología y la innovación</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre mí</a>
+  <a href="#experiencia">Experiencia</a>
+  <a href="#emprendimiento">Emprendimiento</a>
+  <a href="#blog">Blog</a>
+</nav>
+
+<div class="container" id="sobre">
+  <h2>🙋‍♂️ Sobre mí</h2>
+  <p>Mi nombre es <strong>Jose Julio Miniel</strong>, soy ingeniero en sistemas egresado de la Universidad Autónoma de Santo Domingo (UASD). Me apasiona la tecnología, el desarrollo de software y la creación de soluciones digitales que optimicen procesos y mejoren la vida de las personas.</p>
+
+  <p>Desde mis inicios en la universidad, he mostrado interés en áreas como desarrollo web, sistemas de monitoreo y aplicaciones tecnológicas enfocadas en la eficiencia empresarial.</p>
+</div>
+
+<div class="container" id="experiencia">
+  <h2>💼 Experiencia Profesional</h2>
+  <div class="card">
+    <p><strong>Desarrollador de Sistemas GPS</strong></p>
+    <p>Trabajo en la implementación y configuración de dispositivos GPS, optimizando el consumo de datos y mejorando la precisión del monitoreo en tiempo real mediante plataformas como Wialon.</p>
+  </div>
+
+  <div class="card">
+    <p><strong>Desarrollador Web</strong></p>
+    <p>He desarrollado aplicaciones web enfocadas en control de inventario y auditoría de herramientas, utilizando tecnologías modernas como HTML, CSS,
